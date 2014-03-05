@@ -3,7 +3,7 @@
     <groupId>hu.meza.tools</groupId>
     <artifactId>testAutomation</artifactId>
     <packaging>maven-archetype</packaging>
-    <version>1.0</version>
+    <version>1.1-SNAPSHOT</version>
     <properties>
         <selenium.version>[2.40.0,)</selenium.version>
         <cucumber.version>[1.1.5,)</cucumber.version>
