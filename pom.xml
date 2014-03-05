@@ -10,7 +10,38 @@
         <cucumber.version>[1.1.5,)</cucumber.version>
     </properties>
     <name>testAutomation</name>
-    <url>http://maven.apache.org</url>
+
+    <description>An archetype for test automation projects</description>
+    <url>https://github.com/meza/testAutomationArchetype</url>
+
+    <licenses>
+        <license>
+            <name>GNU General Public License (GPL) version 3.0</name>
+            <url>http://www.gnu.org/licenses/gpl-3.0.html</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <parent>
+        <groupId>org.sonatype.oss</groupId>
+        <artifactId>oss-parent</artifactId>
+        <version>7</version>
+    </parent>
+
+    <developers>
+        <developer>
+            <name>Meza</name>
+            <email>meza@meza.hu</email>
+        </developer>
+    </developers>
+
+    <scm>
+        <url>git@github.com:meza/testAutomationArchetype.git</url>
+        <connection>scm:git:git@github.com:meza/testAutomationArchetype.git</connection>
+        <developerConnection>scm:git:git@github.com:meza/testAutomationArchetype.git</developerConnection>
+    </scm>
+
+
     <build>
 
         <resources>
